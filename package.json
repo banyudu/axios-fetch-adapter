@@ -5,10 +5,20 @@
     "main": "index.js",
     "module": "index.js",
     "types": "index.d.ts",
+    "files": [
+        "README.md",
+        "LICENSE",
+        "index.js",
+        "index.d.ts"
+    ],
     "scripts": {
         "release": "np",
         "test": "echo done",
         "dev": "vite"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
     },
     "repository": {
         "type": "git",
